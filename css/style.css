@@ -1,0 +1,177 @@
+/* Max-width: 940px; */
+
+body {
+  padding-top: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* -----Header----- */
+.header {
+  height: 52px;
+}
+
+.nav {
+  /* position: relative; */
+  border-bottom: 1px solid #828282;
+}
+
+/* .nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  height: 1px;
+  background: #828282;
+} */
+ul.menu {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  text-align: center;
+}
+
+.menu__item {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: #828282;
+  text-shadow: 0px 3px 3px #b9cace7a;
+  transition: all 0.2s linear;
+}
+
+.menu__link:hover {
+  color: #070707;
+  text-shadow: 0px -3px 2px #66abbb7a;
+}
+
+/* ----- Main----- */
+
+/* -----Banner------ */
+.banner {
+  padding-bottom: 100px;
+}
+
+.banner__title {
+  font-size: 47px;
+}
+
+/* -----About Me----- */
+.about-me,
+.skills, .portfolio {
+  padding: 100px 20px;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+.about-me__title,
+.skills__title, .contacts__title {
+  margin-top: 0;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.about-me__text {
+  max-width: 485px;
+  margin: 0 auto 40px;
+}
+
+.about-me__text_last {
+  margin-bottom: 0;
+}
+
+.about-me__text:last-child {
+  margin-bottom: 0;
+}
+
+#text-last {
+  margin-bottom: 0;
+}
+
+/* -----Skills----- */
+
+.skills {
+  background: transparent;
+}
+
+.gallery__item {
+  display: inline-block;
+  /* background-color: black; */
+  margin: 20px 70px;
+  width: 89px;
+  height: 87px;
+
+}
+
+/* .gallery__item_figma {
+  display: inline-block;
+  margin: 20px 70px;
+  width: 89px;
+  height: 87px;
+
+} */
+
+/* -----Portfolio----- */
+
+.title {
+  display: inline-block;
+  color: #828282;
+  font-size: 12px;
+}
+
+/* -----Footer----- */
+
+.footer {
+  padding: 100px 20px;
+  text-align: center;
+  /* width: 340px; */
+}
+
+.contacts__text_2 {
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.contacts__item {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+
+}
+
+a {
+  font-size: 18px;
+}
+
+.button_menu {
+  width: 180px;
+  height: 42px;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  text-decoration: none;
+}
+
+.contacts__text_1 {
+  font-size: 18px;
+}
+
+.contacts__text_2 {
+  font-size: 14px;
+  color: #828282;
+}
